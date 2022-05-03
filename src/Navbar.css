@@ -1,0 +1,17 @@
+.navcontainer{
+  display:flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.kahoottitle{
+  background-image: url(./assets/Kahoot.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 146px;
+}
+
+.kahoottitle:hover{
+  filter: invert(42%) sepia(55%) saturate(1146%) hue-rotate(174deg) brightness(92%) contrast(99%);
+}
