@@ -1,9 +1,7 @@
 import React from 'react'
 import './About.css'
 
-const About = () => {
-  const contar = 0
-  return (
+const About = () => (
     <div className="aboutcontainer">
       <div className="creatorcontainer">
         <div className="morethan">
@@ -50,7 +48,6 @@ const About = () => {
         </div>
       </div>
     </div>
-  )
-}
+)
 
 export default About
