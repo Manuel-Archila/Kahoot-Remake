@@ -22,8 +22,8 @@ Este es un proyecto para Sistemas Web donde se recreó visualmente una página w
 ***
 
 ## Comandos
-`npm run lint` Verifica que problemas hay en el código depeindo si es Airbnb complaint.
-`npm run build` Construye el proyecto y crea un archivo compilado con el
-`npm run build-server` Hace la construcción del Webpack server
-`npm run dev-server` Habilita el servidor local para correr el proyecto
-`npm run all`  Ejecuta `npm run build`, `npm run build-server`, `npm run dev-server` para realizar el proyecto con server'side rendering
+* `npm run lint` Verifica que problemas hay en el código depeindo si es Airbnb complaint.
+* `npm run build` Construye el proyecto y crea un archivo compilado con el
+* `npm run build-server` Hace la construcción del Webpack server
+* `npm run dev-server` Habilita el servidor local para correr el proyecto
+* `npm run all`  Ejecuta `npm run build`, `npm run build-server`, `npm run dev-server` para realizar el proyecto con server'side rendering
