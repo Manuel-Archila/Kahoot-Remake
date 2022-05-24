@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40px" height="39px" viewBox="0 0 40 39" class="hand hand--right" aria-hidden="true">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path class="hand__grip" d="M20.9,31.1l-0.7-8.8L3.6,20.2L0,0.1c0,0,7.4-0.6,8.9,6.2l1.9,4.7h21.9l1.1,21L20.9,31.1z" fill="#FAD09E"/>
+                            <polygon class="hand__cuff" points="16.9,39 20.2,31 39.9,32 39.9,39"/>
+                        </g>
+                        </svg>

@@ -1,5 +1,150 @@
 .infocontainer{
   width: 1495px;
-  height: 495px;
-  background-color: blueviolet;
+  height: 250px;
+}
+
+.cuadritoscontainer{
+  width: 1495px;
+  height: 116px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+.cuadrocover{
+  width: 1270px;
+  height: 232px;
+}
+
+.infocuadro-school, .infocuadro-work, .infocuadro-home, .infocuadro-academy{
+  width: 243px;
+  height: 150px;
+  margin: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color:  white;
+  border-radius: 4px;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.15);
+}
+
+.infocuadro-academy{
+  border: 1px solid #DAA514;
+}
+
+.infocuadro-school{
+  border: 1px solid #E32645;
+}
+
+.infocuadro-work{
+  border: 1px solid #2171D1;
+}
+
+.infocuadro-home{
+  border: 1px solid #72B261;
+}
+
+.titlecont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+}
+
+.titulin{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.image-school, .image-work, .image-academy, .image-home{
+  width: 30px;
+  height: 30px;
+  margin-right: 4px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-school{
+  background-image: url('./assets/kahoot-for-schools-icon.png') ;
+}
+
+.image-work{
+  background-image: url('./assets/kahoot-at-work-icon.png') ;
+}
+
+.image-home{
+  background-image: url('./assets/kahoot-at-home-icon.png') ;
+}
+
+.image-academy{
+  background-image: url('./assets/academy-box-icon.png');
+}
+
+.cuadrocover{
+  display: flex;
+  flex-direction: row;
+}
+
+.descripcion{
+  display: inline;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #6e6e6e;
+  margin-left:0;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-top: 12px;
+}
+
+.classic{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #1368CE;
+  margin-top: 9px;
+  position: relative;
+  width: 100px;
+}
+
+.classic::before, .learnmore::before{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: -2;
+  background-color: #1368CE;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.classic:hover, .learnmore:hover{
+  cursor: pointer;
+  color: #1368CE;
+}
+
+.classic:hover::before, .learnmore:hover::before{
+  transform: scaleX(1);
+}
+
+.learnmore{
+  display: inline;
+  width: 200px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #1368CE;
+  font-size: 14px;
+  position: relative;
+}
+
+.textcontainer{
+  display: flex;
+  flex-direction: row;
 }
