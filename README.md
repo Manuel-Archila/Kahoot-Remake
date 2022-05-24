@@ -6,12 +6,12 @@ Este es un proyecto para Sistemas Web donde se recreó visualmente una página w
 ***
 
 ## Tecnologías Implementadas
-**React**
-**CSS**
-**Babel**
-**ESLint**
-**Webpack**
-**Server-side Rendering con Express**
+* **React**
+* **CSS**
+* **Babel**
+* **ESLint**
+* **Webpack**
+* **Server-side Rendering con Express**
 
 ***
 
