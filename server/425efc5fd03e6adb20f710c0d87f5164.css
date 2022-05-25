@@ -1,0 +1,194 @@
+.supportcontainer{
+  width: 1495px;
+  height: 342px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.supportcuadros{
+  width: 1280px;
+  height: 310px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cuadro{
+  width: 624px;
+  height: 294px;
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.textocuas1, .imagencuas1, .textocuas2, .imagencuas2{
+  width: 50%;
+}
+
+.textocuas1{
+  padding-top: 71px;
+  padding-bottom: 71px;
+  padding-left: 32px;
+  background-color: #ffffff;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.imagencuas1{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.formas1, .formas2{
+  width: 302px;
+  height: 294px;
+  border-radius: 15% 1% 1% 15% / 50% 1% 1% 50%;
+}
+
+.formas1{
+  background-image: url('./assets/desktop-2logo-mosaic.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #d8d8d8;
+  box-shadow: -10px 0px 0px 0px #d8d8d8;
+}
+
+.textitos1{
+  width: 259px;
+  height: 151px;
+  padding-right: 8px;
+}
+
+.titulons1{
+  width: 259px;
+  height: 24px;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  margin:0;
+  font-size: 20px;
+}
+
+.descripps1{
+  width: 259px;
+  height: 58px;
+  margin-top: 10px;
+  line-height: 19.6px;
+  font-family: 'Montserrat';
+  font-weight: 400; 
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.botonconts1{
+  width: 259px;
+  height: 58px;
+  margin:0;
+}
+
+.donatebutton{
+  width: 145px;
+  height: 30px;
+  margin-top: 28px;
+  background-color: #26890C;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  border-radius: 3.5px;
+  color: white;
+  font-size: 14px;
+  box-shadow: 0 3px #1C6709;
+  border-bottom: none;
+}
+
+.donatebutton:hover{
+  box-shadow: 0 1px #1C6709;
+  transform: translateY(1px);
+}
+
+.textocuas2{
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 32px;
+  background-color: #ffffff;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.imagencuas2{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.formas1, .formas2{
+  width: 302px;
+  height: 294px;
+  border-radius: 15% 1% 1% 15% / 50% 1% 1% 50%;
+}
+
+.formas2{
+  background-image: url('./assets/desktop.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #d8d8d8;
+  box-shadow: -10px 0px 0px 0px #d8d8d8;
+}
+
+.textitos2{
+  width: 259px;
+  height: 224px;
+  padding-right: 8px;
+}
+
+.titulons2{
+  width: 259px;
+  height: 48px;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  margin:0;
+  font-size: 20px;
+}
+
+.descripps2{
+  width: 259px;
+  height: 78px;
+  margin-top: 10px;
+  line-height: 19.6px;
+  font-family: 'Montserrat';
+  font-weight: 400; 
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.botonconts2{
+  width: 259px;
+  height: 58px;
+  margin:0;
+}
+
+.plusbutton{
+  width: 210px;
+  height: 30px;
+  margin-top: 28px;
+  background-color: #26890C;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  border-radius: 3.5px;
+  color: white;
+  font-size: 14px;
+  box-shadow: 0 3px #1C6709;
+  border-bottom: none;
+}
+
+.plusbutton:hover{
+  box-shadow: 0 1px #1C6709;
+  transform: translateY(1px);
+}
+

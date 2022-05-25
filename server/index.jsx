@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
   const html = `
     <html lang="en">
     <head>
-        <title>Document</title>
+        <title>Kahoot!</title>
     </head>
     <body style="margin: 0px;">
         <div id="root">${element}</div>

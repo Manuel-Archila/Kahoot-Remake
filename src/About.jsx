@@ -1,12 +1,38 @@
-import React from 'react'
-import './About.css'
+import React, { useEffect, useRef, useState } from 'react'
+import './About.scss'
 
-const About = () => (
+const About = () => {
+  const [finished, setFinished] = useState(false)
+  const containerRef = useRef(null)
+  const cont = useRef(0)
+  const [Visible, setVisible] = useState(false)
+
+  const callbackFunction = (entries, observer) => {
+    if (cont.current >= 1) {
+      observer.unobserve(containerRef.current)
+    }
+    const [entry] = entries
+    setVisible(entry.isIntersecting)
+    cont.current += 1
+  }
+
+  const options = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 1,
+  }
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(callbackFunction, options)
+    if (containerRef.current) observer.observe(containerRef.current)
+  }, [containerRef, options])
+
+  return (
     <div className="aboutcontainer">
       <div className="creatorcontainer">
         <div className="morethan">
           <div className="textin">More than</div>
-          <div className="mill" id="millon">1,000,000,000</div>
+          <div className={Visible ? 'mill' : ''} id="millon" onAnimationEnd={() => setFinished(true)} ref={containerRef}>{finished && '1,000,000,00'}</div>
           <div className="textin">players a year</div>
         </div>
         <div className="buttones">
@@ -48,6 +74,7 @@ const About = () => (
         </div>
       </div>
     </div>
-)
+  )
+}
 
 export default About
